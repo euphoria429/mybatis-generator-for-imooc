@@ -14,9 +14,9 @@
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/foodie-shop"
+                        connectionURL="jdbc:mysql://192.168.3.71:3306/foodie-shop"
                         userId="root"
-                        password="root">
+                        password="123yfb$%^">
         </jdbcConnection>
 
         <!-- 对应生成的pojo所在包 -->
@@ -30,17 +30,16 @@
 
         <!-- 数据库表 -->
         <table tableName="carousel"></table>
-
         <table tableName="category"></table>
         <table tableName="items"></table>
         <table tableName="items_comments"></table>
+        <table tableName="items_img"></table>
         <table tableName="items_param"></table>
         <table tableName="items_spec"></table>
         <table tableName="order_items"></table>
         <table tableName="order_status"></table>
-        <table tableName="order_items"></table>
         <table tableName="orders"></table>
-        <table tableName="pdman_db_version"></table>
+        <table tableName="stu"></table>
         <table tableName="user_address"></table>
         <table tableName="users"></table>
 
