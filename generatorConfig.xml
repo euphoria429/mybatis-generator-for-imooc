@@ -14,7 +14,7 @@
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.3.71:3306/foodie-shop"
+                        connectionURL="jdbc:mysql://192.168.3.71:3306/foodie-shop-dev?useSSL=false"
                         userId="root"
                         password="123yfb$%^">
         </jdbcConnection>
